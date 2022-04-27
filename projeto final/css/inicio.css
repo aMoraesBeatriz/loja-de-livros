@@ -1,0 +1,248 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+background-color: #DDA0DD;
+}
+
+ul {
+	padding: 0px !important;
+}
+.menu-principal {
+width: 100%;
+background-color: #8B008B; 
+height: 75px;
+}
+
+main, .content {
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+
+.logo {
+ float: left;
+ padding: 10px;
+ width: 5%;
+}
+
+.library {
+ width: 25%;
+ margin-left: 20px;
+display: inline-block;
+float: left;
+list-style: none;
+}
+
+.redes-sociais ul li {
+margin-left: 20px;
+display: inline-block;
+float: left;
+list-style: none;
+}
+
+.redes-sociais {
+width: 25%;
+float: right;
+}
+
+.header-2 {
+	width: 980px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.menu-urls {
+	height: 100px;
+	border-bottom: 3px solid #8B008B;
+}
+
+.menu ul li {
+	display: inline-block;
+	color: #DDA0DD;
+	margin-left: 20px;
+	height: 50px;
+}
+
+.menu ul li :hover {
+	border-bottom: 2px dashed white;
+}
+
+.menu ul li a:hover {
+	color: white;
+}
+
+.menu ul li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+}
+
+.busca {
+	text-align: center;
+	width: 30%;
+	float: right;
+}
+
+.busca input {
+	background-image: url('../img/lupa.png');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: 96%;
+	padding: 8px;
+	width: 180px;
+	margin-top: 4px; 
+	height: 30px;
+}
+
+.col-100 {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+button.slick-prev{
+	font-size: 0px;
+	border: none;
+	height: 88px;
+	width: 48px;
+	z-index: 9;
+	background-color: transparent;
+	position: absolute;
+	background-image: url(../img/unnamed.png);
+	top: 35%;
+	left: 14%;
+}
+
+button.slick-next{
+	font-size: 0px;
+	border: none;
+	height: 88px;
+	width: 48px;
+	z-index: 9;
+	background-color: transparent;
+	position: absolute;
+	background-image: url(../img/unnamed2.png);
+	top: 35%;
+	right: 14%;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 3px solid black;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 720px;
+}
+
+li.slick-active button {
+    background: #8B008B;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.content h1 {
+	text-align: center;
+}
+
+.content p {
+	text-align: center;
+	font-size: 20px;
+}
+
+.img1 {
+	padding-left: 130px;
+	width: 30%;
+	float: left;
+	position: relative;
+}
+
+.img1 p {
+	text-transform: lowercase;
+}
+
+.img2 {
+	width: 30%;
+	float: left;
+	position: relative;
+}
+
+.img2 p {
+	text-transform: lowercase;
+}
+
+.img3 {
+	width: 30%;
+	float: left;
+	position: relative;
+}
+
+.img3 p {
+	text-transform: lowercase;
+}
+
+#erro {
+	background-color: white;
+}
+
+.content2 {
+	width: 100%; 
+	height: 100%;
+}
+
+.col-4 {
+	float: left;
+	width: 25%;
+}
+
+#terminando {
+	background-color: black;
+}
+
+.col-3 {
+	padding-left: 130px;
+	display: inline-block;
+	width: 20%;
+	float: left;
+	position: relative;
+}
+
+.box2 {
+	text-align: center;
+}
+
+.displayed, .imglogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.produtos-conteudo, .estrelas, .ok {
+	text-align: center;
+}
+
